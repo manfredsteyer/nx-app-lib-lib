@@ -10,7 +10,7 @@
 
 # Lib-Betrieb
 
-1. path-mappings in ``tsconfig.json`` auskommentieren (ng serve hat keinen Parameter um eigene ``tsconfig.json`` anzugeben.)
+1. path-mappings in ``tsconfig.json`` auskommentieren (``ng serve`` hat keinen Parameter um eine eigene ``tsconfig.json`` anzugeben.)
 2. ``ng build core``
 3. ``npm pack dist\libs\core``
 4. ``npm i myapp-core-0.0.1.tgz``
